@@ -63,6 +63,7 @@ public class BookServiceImpl implements BookService {
             LibraryException.throwException(ModuleType.LIBRARY, LibraryExceptionType.BOOK_PRESENT_BY_TITLE, bookAllDto.getTitle());
         }
         Book book = BookMapper.INSTANCE.bookFromBookAllDto(bookAllDto);
-        return bookRepository.save(book);
+        bookRepository.save(book);
+        return book;
     }
 }
