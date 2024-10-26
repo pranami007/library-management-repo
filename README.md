@@ -9,6 +9,7 @@ step 2 : run command "mvn clean install" in execute maven goal for mapstruct int
 step 3 : run project
 
 step 4 : there is 2 in memory user 
+
         1.) username : user
             password : user
             Role : USER
