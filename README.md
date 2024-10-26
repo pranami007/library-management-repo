@@ -1,3 +1,6 @@
+Spring boot : 3.3.5
+Java : 17
+
 step 1 : create database in mysql with name "library-management"
 
 step 2 : run command "mvn clean install" in execute maven goal for mapstruct interface implementation
