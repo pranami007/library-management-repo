@@ -1,4 +1,5 @@
 Spring boot : 3.3.5
+
 Java : 17
 
 step 1 : create database in mysql with name "library-management"
@@ -21,6 +22,8 @@ step 5 : use this 2 user credentials to perform crud operation on book
 step 6 : swagger url : http://localhost:8080/swagger-ui/index.html
 
 Information : 
+
       user with role USER can only perform get operation to fetch books
+
       user with role ADMIN can perform all operation on book controller
  
